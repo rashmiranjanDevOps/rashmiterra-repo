@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_ec2" {
-  ami           = "ami-0861f4e788f5069dd" # Ubuntu 22.04 in ap-south-1
+  ami           = "ami-019715e0d74f695be" # Ubuntu 22.04 in ap-south-1
   instance_type = "t2.micro"
 
   tags = {
